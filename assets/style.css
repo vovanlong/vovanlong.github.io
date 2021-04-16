@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.bg-info-user {
+  margin: 0 4px;
+  opacity: 0.6;
+  background-color: #383534 !important;
+  margin-top: -10rem; }
+
+#tomosia-wrapper .c-info-menu {
+  display: flex;
+  width: 100%;
+  height: calc(100vh);
+  margin: 0;
+  position: relative;
+  align-items: center;
+  background: url(./images/nguyen-dang-hoang-nhu-RGvBZd6xZC4-unsplash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+#tomosia-wrapper .c-introduct-villa {
+  display: flex;
+  width: 100%;
+  height: calc(100vh);
+  margin: 0;
+  position: relative;
+  align-items: center;
+  background: url(./images/tia-helmy--c6u1bF4P00-unsplash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+#tomosia-wrapper .c-info-user {
+  display: flex;
+  width: 100%;
+  height: calc(100vh);
+  margin: 0;
+  position: relative;
+  align-items: center;
+  background: url(./images/nathalie-buss-HYST-KUIu-s-unsplash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+#tomosia-wrapper .c-search-user {
+  display: flex;
+  width: 100%;
+  height: calc(100vh);
+  margin: 0;
+  position: relative;
+  align-items: center;
+  background: url(./images/orlova-maria-b37mDyPzdJM-unsplash.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #tomosia-wrapper .c-search-user .input-group {
+    position: absolute;
+    top: 9rem; }
+
+.loading-page {
+  background: #0d0d0d;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .loading-page .counter {
+    text-align: center; }
+    .loading-page .counter p {
+      font-size: 40px;
+      font-weight: 100;
+      color: #f60d54; }
+    .loading-page .counter h3 {
+      color: white;
+      font-size: 60px;
+      margin-top: -10px; }
+    .loading-page .counter hr {
+      background: #f60d54;
+      border: none;
+      height: 1px; }
+
+.color--green {
+  color: #7bc043 !important; }
+
+.color--black {
+  color: #333333 !important; }
+
+.color--red {
+  color: #ee4035 !important; }
+
+.bg-black {
+  background-color: #333333; }
+
+.opacity-66 {
+  opacity: 0.66; }
+
+/*# sourceMappingURL=style.css.map */

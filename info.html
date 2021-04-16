@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Teambuilding TOMOSIA DA NANG</title>
+</head>
+
+<body id="tomosia-wrapper">
+  <header class="fixed z-30">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-blue">
+      <a class="navbar-brand w-3/6 md:w-3/12" href="/index.html">
+        <img src="./assets/images/company-logo-dark@2x.png" alt="" srcset="" class="w-full sm:w-8/12">
+      </a>
+      <div class="w-2/6 text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link color--black" href="/index.html">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color--black" href="/info.html">Thông tin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color--red js--sign-out" href="#" tabindex="-1" aria-disabled="true">Đăng xuất</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="row p-0 c-introduct-villa">
+    <div class="card text-white mb-3 mx-2 bg-black rounded-none w-full opacity-66">
+      <div class="card-header">
+        Villa Phuc Hung
+      </div>
+      <div class="card-body">
+        <h3>Địa điểm lân cận</h3>
+        <div class="flex items-baseline justify-between	mt-3">
+          <h5 class="card-title">Bãi biển Cửa Đại</h5>
+          <p class="card-text text-right">564 m</p>
+        </div>
+
+        <div class="flex items-baseline justify-between	">
+          <h5 class="card-title">Phố cổ Hội An</h5>
+          <p class="card-text text-right">3.67 km</p>
+        </div>
+
+        <div class="flex items-baseline justify-between	">
+          <h5 class="card-title">Số Phòng ngủ</h5>
+          <div class="card-text text-right">
+            <p class="card-text text-right">14 phòng ngủ</p>
+            <p class="card-text text-right">6 phòng lớn và 8 phòng nhỏ</p>
+          </div>
+        </div>
+        <div class="flex items-baseline justify-between	">
+          <h5 class="card-title">Bể bơi</h5>
+          <p class="card-text text-right">Hàng ngàn thước</p>
+        </div>
+
+        <div class="flex items-baseline justify-between	">
+          <h5 class="card-title">Phong cảnh</h5>
+          <p class="card-text text-right">View sông hữu tình, lãng mãn, có khu vực checkin tuyệt vời</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-0 c-info-menu">
+    <div class="card text-white bg-info mb-3 rounded-none w-full bg-info-user">
+      <div class="card-header">Menu party night</div>
+      <div class="card-body">
+        <div class="grid grid-cols-2">
+          <p class="card-title">Món khai vị</p>
+          <p class="card-text">Salad rau</p>
+        </div>
+
+        <div class="grid grid-cols-2">
+          <p class="card-title">Món chính</p>
+          <ul>
+            <li>+ Bò nhúng dấm</li>
+            <li>+ Chíp chíp xào xả ớt</li>
+            <li>+ Tôm xiên nướng</li>
+            <li>+ Thịt nướng BBQ</li>
+            <li>+ Sò mía nướng mỡ hành</li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-2">
+          <p class="card-title">Đồ uống</p>
+          <p class="card-text">Rượu & Bia</p>
+          <p class="card-text">Nước ngọt</p>
+        </div>
+        <div class="grid grid-cols-2">
+          <p class="card-title">Món lau xe</p>
+          <p class="card-text">Trái Cây (dưa hấu + xoài)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-0 c-info-user">
+    <div class="card text-white bg-info mb-3 rounded-none w-full bg-info-user">
+      <div class="card-header">Thông tin</div>
+      <h3 class="js--title-welcome text-center mt-2"></h3>
+      <div class="card-body">
+        <div class="grid grid-cols-2">
+          <p class="card-title">Tên người tham gia</p>
+          <p class="card-text js--username"></p>
+        </div>
+
+        <div class="grid grid-cols-2">
+          <p class="card-title">Số Phòng</p>
+          <p class="card-text js--room"></p>
+        </div>
+
+        <div class="grid grid-cols-2">
+          <p class="card-title">Team chơi trò chơi</p>
+          <p class="card-text js--team"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  
+  <script src="./assets/application.js"></script>
+</body>
+
+</html>
