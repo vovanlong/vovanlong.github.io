@@ -137,6 +137,12 @@ $(document).ready(function () {
       team: 'BTC'
     },
     {
+      name: 'Thuong Ngo',
+      room: '304',
+      title: 'Ngô Thương',
+      team: 'nobita'
+    },
+    {
       name: 'Trang Chu',
       room: '304',
       title: 'Chu Thị Quỳnh Trang',
